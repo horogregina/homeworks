@@ -4,7 +4,7 @@ def hazi2():
     b = int(input("b oldal (cm): "))
     c = int(input("c oldal (cm): "))
     if (a + b) > c and (a + c) > b and (b + c) > a:
-        print("A(z) " + str(a) + " és " + str(b) + ", " + str(c) + " oldalú háromszög szerkeszthető.")
+        print("A(z) " + str(a) + ", " + str(b) + "és " + str(c) + " oldalú háromszög szerkeszthető.")
     else:
-        print("A(z) " + str(a) + " és " + str(b) + ", " + str(c) + " oldalú háromszög NEM szerkeszthető.")
+        print("A(z) " + str(a) + " , " + str(b) + "és " + str(c) + " oldalú háromszög NEM szerkeszthető.")
 hazi2()
